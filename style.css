@@ -12,6 +12,33 @@ body {
     display: flex;
 }
 
+.primary {
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.secondary {
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
 .nav-brand {
     color: rgb(230, 83, 60);
     font-family: Inter;
@@ -30,13 +57,14 @@ body {
 }
 
 .header {
-    max-width: 80%;
+    max-width: 1800px;
     height: 100px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
+
 
 .header nav li {
     list-style: none;
@@ -54,8 +82,99 @@ body {
     text-align: left;
 }
 
+/* Banner section starts from here... */
+
+.banner {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: white solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    margin-right: 200px;
+    text-align: left;
+}
+
+.banner-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.shape {
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.banner-image {
+    margin-left: 200px;
+}
+
+
+/* Banner section ends here... */
+
 @media screen and (max-width: 576px){
+    .header {
+        max-width: 100%;
+        margin: 0 auto;
+        border: white solid;
+        max-width: 560px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
     .nav-items {
+        max-width: 100%;
+        margin: 0 auto;
         visibility: hidden;
     }
+
+    .banner {
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .banner-content {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-right: 0px;
+    }
+
+    .banner-image {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+    .btn-container {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 14px;
+    }
+
 }
