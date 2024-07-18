@@ -25,6 +25,7 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
+
 .secondary {
     border: 0;
     outline: 0;
@@ -48,6 +49,8 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* Nav section starts from here.... */
 
 .home {
     background-color: rgb(230, 83, 60);
@@ -81,6 +84,8 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* Nav section ends here.... */
 
 /* Banner section starts from here... */
 
@@ -133,6 +138,93 @@ body {
 
 /* Banner section ends here... */
 
+/* Change habits section starts from here... */
+
+.change-your-habits {
+    border: white solid;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+.card p {
+    text-align: center;
+    max-width: 270px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.card-container {
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.card-description {
+    color: white;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.card-description p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.card-description h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* Change habits section ends here... */
+
+/* Respondive part starts from here... */
+
+
 @media screen and (max-width: 576px){
     .header {
         max-width: 100%;
@@ -153,31 +245,51 @@ body {
         max-width: 100%;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         padding: 0px;
         overflow: hidden;
     }
 
     .banner-content {
-        max-width: 100%;
+        max-width: 90%;
         margin: 0 auto;
         margin-right: 0px;
+        margin-left: 0px;
         overflow: hidden;
         padding-left: 20px;
+        text-align: left;
     }
 
     .banner-image {
         max-width: 100%;
-        margin-left: 0;
         overflow: hidden;
-        margin-left: 30px;
+        margin-left: 120px;
     }
 
     .btn-container {
         max-width: 100%;
-        display: flex;
+        height: 100px;
+        margin-left: 25px;
+        justify-content: center;
+        align-items: center;
         gap: 14px;
         overflow: hidden;
+    }
+
+    .card-container {
+        flex-direction: column;
+        margin-top: 20px;
+        height: 1350px;
+        width: 100%;
+    }
+
+    .card {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .change-your-habits {
+        margin-top: 0px;
     }
 
 }
