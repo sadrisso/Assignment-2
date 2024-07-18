@@ -12,6 +12,28 @@ body {
     display: flex;
 }
 
+.title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .primary {
     border: 0;
     outline: 0;
@@ -93,9 +115,9 @@ body {
     max-width: 1700px;
     margin: 0 auto;
     padding: 20px;
-    border: white solid;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .banner-content {
@@ -141,12 +163,11 @@ body {
 /* Change habits section starts from here... */
 
 .change-your-habits {
-    border: white solid;
     max-width: 1700px;
     margin: 0 auto;
     padding: 20px;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -191,30 +212,10 @@ body {
     height: 500px;
 }
 
-.card-description {
+.card-title {
     color: white;
     margin: 0 auto;
     max-width: 800px;
-    text-align: center;
-}
-
-.card-description p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-}
-
-.card-description h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-weight: 900;
-    line-height: 120%;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -224,13 +225,14 @@ body {
 
 
 .run {
-    padding: 20px;
+    padding: 30px;
     max-width: 1200px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin: 0 auto;
     justify-content: center;
-    margin-bottom: 50px;
+    align-items: center;
+    margin-bottom: 150px;
 }
 .run-image img {
     max-width: 430px;
@@ -272,13 +274,167 @@ body {
 
 /* Run section ends here... */
 
+
+/* BMI section starts here */
+
+.bmi-section {
+    max-width: 1700px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.bmi-function {
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    margin-bottom: 100px;
+}
+
+.table {
+    width: 310px;
+    height: 216px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.calculate-bmi h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.calculate-bmi p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+.bmi-chart h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.calculate-bmi {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    width: 40%;
+    height: 400px;
+}
+
+.bmi-chart {
+    height: 400px;
+    width: 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.calculate-bmi input {
+    width: 282.5px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    outline: 0;
+    margin-top: 8px;
+    color: white;
+}
+
+.calculate-bmi button {
+    margin-top: 20px;
+}
+
+#special-input {
+    width: 570px;
+}
+/* BMI section ends here */
+
+/* Meet our team section starts.... */
+
+.meet-our-team {
+    max-width: 1800px;
+    margin: 0 auto;
+    color: white;
+    border: white solid;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainer-img {
+    width: 400px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px 0;
+}
+
+
+/* Meet our team section ends.... */
+
+
 /* Respondive part starts from here... */
 
 
 @media screen and (max-width: 576px){
     .header {
         max-width: 100%;
-        border: white solid;
         max-width: 560px;
         margin: 0 auto;
         padding-left: 20px;
@@ -391,4 +547,54 @@ body {
         max-width: 100%;
     }
 
+    .bmi-section {
+        width: 100%;
+    }
+
+    .bmi-title {
+        padding: 0 10px 0 25px;
+    }
+
+    .bmi-title p {
+        width: 100%;
+    }
+
+    .bmi-function {
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .bmi-chart {
+        width: 100%;
+    }
+
+    .calculate-bmi {
+        width: 100%;
+        height: 500px;
+    }
+
+    .calculate-bmi h2,p,form {
+        width: 90%;
+    }
+
+    .calculate-bmi form input {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    #special-input {
+        width: 80%
+    }
+
+    .image-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .team-title p {
+        width: 100%;
+        padding: 0 10px;
+    }
 }
