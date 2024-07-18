@@ -60,7 +60,7 @@ body {
 }
 
 .header {
-    max-width: 1800px;
+    max-width: 1700px;
     height: 100px;
     margin: 0 auto;
     justify-content: space-between;
@@ -90,7 +90,7 @@ body {
 /* Banner section starts from here... */
 
 .banner {
-    max-width: 1800px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 20px;
     border: white solid;
@@ -142,7 +142,7 @@ body {
 
 .change-your-habits {
     border: white solid;
-    max-width: 1800px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 20px;
     margin-top: 50px;
@@ -218,9 +218,59 @@ body {
     text-align: center;
 }
 
-
-
 /* Change habits section ends here... */
+
+/* Run section starts from here... */
+
+
+.run {
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.run-image img {
+    max-width: 430px;
+    height: 320px;
+    border-radius: 30px;
+}
+
+.run-content {
+    width: 700px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.run-content h1 {
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.run-content p {
+    width: 500px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+/* Run section ends here... */
 
 /* Respondive part starts from here... */
 
@@ -283,13 +333,62 @@ body {
         width: 100%;
     }
 
+    .card-description {
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+
     .card {
+        max-width: 90%;
         margin-top: 30px;
         padding: 10px;
     }
 
+    /* .card p {
+        max-width: 90%;
+        margin: 0 auto;
+    } */
+
     .change-your-habits {
         margin-top: 0px;
+    }
+
+    .run {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 750px;
+        overflow: hidden;
+
+    }
+
+    .run-content {
+        max-width: 90%;
+        margin-left: 0;
+    }
+
+    .run-content h1 {
+        max-width: 90%;
+    }
+
+    .run-content p {
+        max-width: 90%;
+    }
+
+    .run-content .primary {
+        margin: 0 auto;
+        margin-bottom: 40px;
+        width: 98%;
+    }
+
+    .run-image {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .run-image img {
+        max-width: 100%;
     }
 
 }
