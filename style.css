@@ -564,7 +564,7 @@ hr {
     }
 
     .banner-image img {
-        max-width: 100%;
+        max-width: 90%;
         text-align: center;
     }
 
@@ -727,5 +727,6 @@ hr {
 
     .footer-content div p {
         margin-left: 0px;
+        width: 90%;
     }
 }
