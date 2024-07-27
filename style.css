@@ -626,18 +626,32 @@ hr {
 /* Respondive part starts from here... */
 
 @media screen and (max-width: 576px){
+
+    body {
+        overflow: hidden;
+    }
+    
     .header {
-        max-width: 100%;
-        max-width: 560px;
-        margin: 0 auto;
+        width: 100%;
         padding-left: 20px;
         overflow: hidden;
+        margin-top: 40px;
     }
 
     .nav-items {
-        max-width: 100%;
+        width: 100%;
         visibility: hidden;
         overflow: hidden;
+    }
+
+    .nav-brand {
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
     }
 
     .banner {
@@ -650,25 +664,35 @@ hr {
     }
 
     .banner-content {
-        max-width: 90%;
-        margin: 0 auto;
-        margin-right: 0px;
-        margin-left: 0px;
+        width: 90%;
         overflow: hidden;
         padding-left: 20px;
         text-align: left;
     }
 
+    .banner-content h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 285px;
+        height: 129px;
+    }
+
     .banner-image {
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
-        text-align: center;
         overflow: hidden;
     }
 
     .banner-image img {
-        max-width: 90%;
+        width: 353px;
+        height: 588px;
         text-align: center;
+        overflow: hidden;
     }
 
     .card1 {
@@ -700,7 +724,6 @@ hr {
     }
 
     .card1-content {
-        
         width: 130px;
         height: 60px;
         margin-top: -1px;
@@ -776,8 +799,26 @@ hr {
         width: 100%;
     }
 
+    .change-your-habits h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
     .change-your-habits .desc {
-        width: 100%;
+        width: 90%;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .run {
@@ -872,6 +913,11 @@ hr {
 
     .meet-our-team {
         margin-top: 80px;
+    }
+
+    .meet-our-team p {
+        width: 90%;
+
     }
 
     .footer-content {
