@@ -258,7 +258,6 @@ body {
     background: rgb(230, 83, 60);
     border-radius: 50%;
     bottom: 27px;
-    
 }
 
 
@@ -388,10 +387,13 @@ body {
     margin: 0 auto;
     border: solid white;
     padding: 10px;
+    background-color: lightgrey;
+    border-radius: 30px;
 }
 
 .our-packages h1 {
     margin-bottom: 40px;
+    color: black
 }
 
 .package-card h2 {
@@ -403,11 +405,13 @@ body {
 
 .package-card {
     width: 380px;
-    height: 560px;
+    height: 590px;
     text-align: center;
-    border: solid grey .1px;
+    background-color: black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 100);
 }
 
 .package-card img {
@@ -422,7 +426,7 @@ body {
 }
 
 .price {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 50px;
     text-transform: uppercase;
     font-size: 2rem;
@@ -904,6 +908,41 @@ hr {
 
     .run-image img {
         max-width: 100%;
+    }
+
+    .our-packages {
+        height: 2100px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .package-card {
+        height: 620px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .package-card h2 {
+        margin-top: 30px;
+    }
+
+    .package-card img {
+        width: 100%;
+    }
+
+    .package-card .desc {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .price {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .packages-desc {
+        flex-direction: column;
+        gap: 30px;
     }
 
     .bmi-section {
