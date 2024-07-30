@@ -82,7 +82,7 @@ body {
 }
 
 .header {
-    max-width: 1700px;
+    max-width: 1650px;
     height: 100px;
     margin: 0 auto;
     justify-content: space-between;
@@ -113,7 +113,7 @@ body {
 /* Banner section starts from here... */
 
 .banner {
-    max-width: 1700px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
     align-items: center;
@@ -378,6 +378,58 @@ body {
 
 
 /* Run section ends here... */
+
+
+/* Package Section Starts from here... */
+
+.our-packages {
+    max-width: 1650px;
+    height: 730px;
+    margin: 0 auto;
+    border: solid white;
+    padding: 10px;
+}
+
+.our-packages h1 {
+    margin-bottom: 40px;
+}
+
+.package-card h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.package-card {
+    width: 380px;
+    height: 560px;
+    text-align: center;
+    border: solid grey .1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.package-card img {
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.packages-desc {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.price {
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+
+/* Package Section Starts from here... */
 
 
 /* BMI section starts here */
@@ -901,10 +953,10 @@ hr {
         width: 100%;
     }
 
-    .team-title p {
+    /* .team-title p {
         width: 100%;
         padding: 0 10px;
-    }
+    } */
 
     .meet-our-team {
         margin-top: 80px;
@@ -912,7 +964,7 @@ hr {
 
     .meet-our-team p {
         width: 90%;
-
+        margin: 0 auto;
     }
 
     .footer-content {
