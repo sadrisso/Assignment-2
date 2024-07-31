@@ -64,6 +64,10 @@ body {
 
 /* Nav section starts from here.... */
 
+.mobile-menu {
+    display: none;
+}
+
 .nav-brand {
     color: rgb(230, 83, 60);
     font-family: Inter;
@@ -383,7 +387,7 @@ body {
 
 .our-packages {
     max-width: 1650px;
-    height: 730px;
+    height: 780px;
     margin: 0 auto;
     padding: 10px;
     background-color: lightgrey;
@@ -406,7 +410,7 @@ body {
 
 .package-card {
     width: 380px;
-    height: 590px;
+    height: 620px;
     text-align: center;
     background-color: black;
     border-radius: 10px;
@@ -684,17 +688,28 @@ hr {
 /* Respondive part starts from here... */
 
 @media screen and (max-width: 576px){
-    .header {
-        width: 100%;
-        padding-left: 20px;
-        overflow: hidden;
-        margin-top: 40px;
-    }
 
     .nav-items {
         width: 100%;
         visibility: hidden;
         overflow: hidden;
+    }
+
+    .header {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+        overflow: hidden;
+        border: solid white;
+        align-items: center;
+    }
+
+    .mobile-menu {
+        display: block;
+        color: white;
+        height: 30px;
+        width: 50px;
+        margin-left: 250px;
     }
 
     .nav-brand {
