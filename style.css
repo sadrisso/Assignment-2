@@ -697,20 +697,17 @@ hr {
 
     .header {
         width: 100%;
-        justify-content: space-around;
         margin-top: 30px;
         overflow: hidden;
-        border: solid white;
-        align-items: center;
     }
 
-    .mobile-menu {
+    /* .mobile-menu {
         display: block;
         color: white;
         height: 30px;
         width: 50px;
         margin-left: 250px;
-    }
+    } */
 
     .nav-brand {
         color: rgb(230, 83, 60);
