@@ -689,25 +689,17 @@ hr {
 
 @media screen and (max-width: 576px){
 
-    .nav-items {
-        width: 100%;
-        visibility: hidden;
-        overflow: hidden;
-    }
-
     .header {
         width: 100%;
         margin-top: 30px;
         overflow: hidden;
     }
 
-    /* .mobile-menu {
-        display: block;
-        color: white;
-        height: 30px;
-        width: 50px;
-        margin-left: 250px;
-    } */
+    .nav-items {
+        width: 100%;
+        visibility: hidden;
+        overflow: hidden;
+    }
 
     .nav-brand {
         color: rgb(230, 83, 60);
